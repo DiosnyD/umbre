@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Diana Iveth Duran Velazquez</title>
+    <script src="juju.js"></script>
+    <link rel="stylesheet" href="estilito.css">
+</head>
+<body bgcolor="#70ff44">
+    <div style="color: white;">
+        <h1>Adivina el numero</h1>
+    </div>
+     <br>
+     <form class="formulario">
+        <div style="font-size:25px; color: rgb(253, 253, 252);">
+            <p id="tiempo"></p>
+         </div>
+         <br>
+          <button type="button" onclick="jugar()">P L A Y</button>
+                  <br><br>
+          <DIV>
+              <input type="number" id="user1" value="0" min="0" max="1000" step="10">
+              <button type="button" id="p1" onclick="comparar(1)">Player 1</button>
+          </DIV>
+          <br><br>
+          <div>
+              <input type="number" id="user2" value="0" min="0" max="1000" step="10">
+              <button type="button" id="p2" onclick="comparar(2)">Player 2</button>
+          </div>
+          <div style="font-size:25px; color: rgb(253, 253, 252);">
+            <p id="mensaje"></p>
+            <p id="men2"></p>
+          </div>
+     </form>
+</body>
+</html>
