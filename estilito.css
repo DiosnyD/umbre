@@ -27,8 +27,8 @@ button[type="button"]{
 }
 @media (max-width: 400%){
     .formulario{
-        width: auto;
-        height: auto;
+        width: 50%;
+        height:50%;
 
     }
 }
